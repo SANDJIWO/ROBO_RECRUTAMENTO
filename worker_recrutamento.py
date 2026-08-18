@@ -97,9 +97,11 @@ def buscar_vagas_dinamicamente(perfil_id):
 def enviar_email_candidatura(perfil, vaga_id, url_vaga, percentual_match, email_recrutador):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
+
+    remetente_tecnico = os.getenv("ROBO_EMAIL", "jsandjiwo@gmail.com")
+    password_tecnico = os.getenv("ROBO_PASSWORD", "omao iuum wfqd kwcd")
     
-    remetente_tecnico = os.getenv("ROBO_EMAIL", "lukokipaulo@gmail.com")
-    password_tecnico = os.getenv("ROBO_PASSWORD", "mxtd icng tqxf lvtr")  
+     
     destinatario = email_recrutador
 
     nome_candidato = perfil['dados_pessoais']['nome']
