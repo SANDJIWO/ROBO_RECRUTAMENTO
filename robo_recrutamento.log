@@ -1,0 +1,1380 @@
+[2026-07-31 17:43:43] [*] Iniciando o Agente Autónomo de Busca de Emprego no Edge...
+[2026-07-31 17:43:43] [+] Perfil de Augusto Silva carregado com sucesso.
+[2026-07-31 17:43:43] ====== WebDriver manager ======
+[2026-07-31 17:43:45] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 17:43:47] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 17:43:49] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 17:43:49] [*] O seu perfil técnico atual: ['PHP', 'MYSQL', 'DOCKER', 'PYTHON', 'FASTAPI', 'NGINX']
+[2026-07-31 17:43:49] [*] Correspondência técnica: 4 de 4 requisitos atendidos.
+[2026-07-31 17:43:49] [+] Perfil adequado (100.0%). Iniciando submissão automática...
+[2026-07-31 17:43:52] [+] Sucesso: Candidatura submetida com êxito pelo Agente!
+[2026-07-31 17:43:55] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 17:44:06] [-] Falha no processamento da candidatura nesta vaga: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff76651ef95+e415]
+	msedgedriver!GetHandleVerifier [0x7ff76651eff4+e474]
+	msedgedriver!GetHandleVerifier [0x7ff766b99706+688b86]
+	msedgedriver!(No symbol) [0x7ff765f107a2]
+	msedgedriver!(No symbol) [0x7ff765f10a15]
+	msedgedriver!(No symbol) [0x7ff765f4e9c7]
+	msedgedriver!(No symbol) [0x7ff765f073b7]
+	msedgedriver!(No symbol) [0x7ff765f4c688]
+	msedgedriver!(No symbol) [0x7ff765f06bfc]
+	msedgedriver!(No symbol) [0x7ff765f05e56]
+	msedgedriver!(No symbol) [0x7ff765f06a23]
+	msedgedriver!(No symbol) [0x7ff7661493f1]
+	msedgedriver!(No symbol) [0x7ff76614580f]
+	msedgedriver!(No symbol) [0x7ff766156699]
+	msedgedriver!GetHandleVerifier [0x7ff76653a681+29b01]
+	msedgedriver!GetHandleVerifier [0x7ff766542e86+32306]
+	msedgedriver!GetHandleVerifier [0x7ff766526af4+15f74]
+	msedgedriver!GetHandleVerifier [0x7ff766526c15+16095]
+	msedgedriver!GetHandleVerifier [0x7ff766513033+24b3]
+	KERNEL32!BaseThreadInitThunk [0x7ffc022c7374+14]
+	ntdll!RtlUserThreadStart [0x7ffc02a9cc91+21]
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\robo_recrutamento\worker_recrutamento.py", line 63, in analisar_e_submeter
+    wait.until(EC.presence_of_element_located((By.ID, "requisitos")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IPAG\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff76651ef95+e415]
+	msedgedriver!GetHandleVerifier [0x7ff76651eff4+e474]
+	msedgedriver!GetHandleVerifier [0x7ff766b99706+688b86]
+	msedgedriver!(No symbol) [0x7ff765f107a2]
+	msedgedriver!(No symbol) [0x7ff765f10a15]
+	msedgedriver!(No symbol) [0x7ff765f4e9c7]
+	msedgedriver!(No symbol) [0x7ff765f073b7]
+	msedgedriver!(No symbol) [0x7ff765f4c688]
+	msedgedriver!(No symbol) [0x7ff765f06bfc]
+	msedgedriver!(No symbol) [0x7ff765f05e56]
+	msedgedriver!(No symbol) [0x7ff765f06a23]
+	msedgedriver!(No symbol) [0x7ff7661493f1]
+	msedgedriver!(No symbol) [0x7ff76614580f]
+	msedgedriver!(No symbol) [0x7ff766156699]
+	msedgedriver!GetHandleVerifier [0x7ff76653a681+29b01]
+	msedgedriver!GetHandleVerifier [0x7ff766542e86+32306]
+	msedgedriver!GetHandleVerifier [0x7ff766526af4+15f74]
+	msedgedriver!GetHandleVerifier [0x7ff766526c15+16095]
+	msedgedriver!GetHandleVerifier [0x7ff766513033+24b3]
+	KERNEL32!BaseThreadInitThunk [0x7ffc022c7374+14]
+	ntdll!RtlUserThreadStart [0x7ffc02a9cc91+21]
+
+[2026-07-31 17:44:09] [*] Finalizando ambiente de simulação e fechando o navegador Edge...
+[2026-07-31 17:57:04] [*] Iniciando o Agente Autónomo de Busca de Emprego no Edge...
+[2026-07-31 17:57:04] [+] Perfil carregado com sucesso.
+[2026-07-31 17:57:04] ====== WebDriver manager ======
+[2026-07-31 17:57:06] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 17:57:13] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 17:57:15] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 17:57:15] [*] O seu perfil técnico atual: ['PHP', 'MYSQL', 'DOCKER', 'PYTHON', 'FASTAPI', 'NGINX']
+[2026-07-31 17:57:15] [*] Correspondência técnica: 4 de 4 requisitos atendidos.
+[2026-07-31 17:57:15] [+] Perfil adequado (100.0%). Iniciando submissão...
+[2026-07-31 17:57:18] [+] Sucesso: Candidatura submetida com êxito pelo Agente!
+[2026-07-31 17:57:21] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 17:57:32] [-] Falha no processamento da candidatura nesta vaga (ID 2): Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff76651ef95+e415]
+	msedgedriver!GetHandleVerifier [0x7ff76651eff4+e474]
+	msedgedriver!GetHandleVerifier [0x7ff766b99706+688b86]
+	msedgedriver!(No symbol) [0x7ff765f107a2]
+	msedgedriver!(No symbol) [0x7ff765f10a15]
+	msedgedriver!(No symbol) [0x7ff765f4e9c7]
+	msedgedriver!(No symbol) [0x7ff765f073b7]
+	msedgedriver!(No symbol) [0x7ff765f4c688]
+	msedgedriver!(No symbol) [0x7ff765f06bfc]
+	msedgedriver!(No symbol) [0x7ff765f05e56]
+	msedgedriver!(No symbol) [0x7ff765f06a23]
+	msedgedriver!(No symbol) [0x7ff7661493f1]
+	msedgedriver!(No symbol) [0x7ff76614580f]
+	msedgedriver!(No symbol) [0x7ff766156699]
+	msedgedriver!GetHandleVerifier [0x7ff76653a681+29b01]
+	msedgedriver!GetHandleVerifier [0x7ff766542e86+32306]
+	msedgedriver!GetHandleVerifier [0x7ff766526af4+15f74]
+	msedgedriver!GetHandleVerifier [0x7ff766526c15+16095]
+	msedgedriver!GetHandleVerifier [0x7ff766513033+24b3]
+	KERNEL32!BaseThreadInitThunk [0x7ffc022c7374+14]
+	ntdll!RtlUserThreadStart [0x7ffc02a9cc91+21]
+
+[2026-07-31 17:57:32] [-] Erro ao salvar histórico no banco: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sistema_recrutamento_db`.`historico_candidaturas`, CONSTRAINT `historico_candidaturas_ibfk_1` FOREIGN KEY (`vaga_id`) REFERENCES `vagas` (`id`) ON DELETE CASCADE)
+[2026-07-31 17:57:34] [*] Iniciando o Agente Autónomo de Busca de Emprego no Edge...
+[2026-07-31 17:57:34] [+] Perfil carregado com sucesso.
+[2026-07-31 17:57:34] ====== WebDriver manager ======
+[2026-07-31 17:57:35] [*] Finalizando ambiente de simulação e fechando o navegador Edge...
+[2026-07-31 17:57:36] [*] Iniciando o Agente Autónomo de Busca de Emprego no Edge...
+[2026-07-31 17:57:36] [+] Perfil carregado com sucesso.
+[2026-07-31 17:57:36] ====== WebDriver manager ======
+[2026-07-31 17:57:37] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 17:57:37] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 17:57:39] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 17:57:40] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 17:57:43] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 17:57:43] [*] O seu perfil técnico atual: ['PHP', 'MYSQL', 'DOCKER', 'PYTHON', 'FASTAPI', 'NGINX']
+[2026-07-31 17:57:43] [*] Correspondência técnica: 4 de 4 requisitos atendidos.
+[2026-07-31 17:57:43] [+] Perfil adequado (100.0%). Iniciando submissão...
+[2026-07-31 17:57:43] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 17:57:43] [*] O seu perfil técnico atual: ['PHP', 'MYSQL', 'DOCKER', 'PYTHON', 'FASTAPI', 'NGINX']
+[2026-07-31 17:57:43] [*] Correspondência técnica: 4 de 4 requisitos atendidos.
+[2026-07-31 17:57:43] [+] Perfil adequado (100.0%). Iniciando submissão...
+[2026-07-31 17:57:46] [+] Sucesso: Candidatura submetida com êxito pelo Agente!
+[2026-07-31 17:57:47] [+] Sucesso: Candidatura submetida com êxito pelo Agente!
+[2026-07-31 17:57:49] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 17:57:50] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 17:57:58] [*] Iniciando o Agente Autónomo de Busca de Emprego no Edge...
+[2026-07-31 17:57:58] [+] Perfil carregado com sucesso.
+[2026-07-31 17:57:58] ====== WebDriver manager ======
+[2026-07-31 17:57:59] [-] Falha no processamento da candidatura nesta vaga (ID 2): Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff76651ef95+e415]
+	msedgedriver!GetHandleVerifier [0x7ff76651eff4+e474]
+	msedgedriver!GetHandleVerifier [0x7ff766b99706+688b86]
+	msedgedriver!(No symbol) [0x7ff765f107a2]
+	msedgedriver!(No symbol) [0x7ff765f10a15]
+	msedgedriver!(No symbol) [0x7ff765f4e9c7]
+	msedgedriver!(No symbol) [0x7ff765f073b7]
+	msedgedriver!(No symbol) [0x7ff765f4c688]
+	msedgedriver!(No symbol) [0x7ff765f06bfc]
+	msedgedriver!(No symbol) [0x7ff765f05e56]
+	msedgedriver!(No symbol) [0x7ff765f06a23]
+	msedgedriver!(No symbol) [0x7ff7661493f1]
+	msedgedriver!(No symbol) [0x7ff76614580f]
+	msedgedriver!(No symbol) [0x7ff766156699]
+	msedgedriver!GetHandleVerifier [0x7ff76653a681+29b01]
+	msedgedriver!GetHandleVerifier [0x7ff766542e86+32306]
+	msedgedriver!GetHandleVerifier [0x7ff766526af4+15f74]
+	msedgedriver!GetHandleVerifier [0x7ff766526c15+16095]
+	msedgedriver!GetHandleVerifier [0x7ff766513033+24b3]
+	KERNEL32!BaseThreadInitThunk [0x7ffc022c7374+14]
+	ntdll!RtlUserThreadStart [0x7ffc02a9cc91+21]
+
+[2026-07-31 17:58:00] [-] Erro ao salvar histórico no banco: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sistema_recrutamento_db`.`historico_candidaturas`, CONSTRAINT `historico_candidaturas_ibfk_1` FOREIGN KEY (`vaga_id`) REFERENCES `vagas` (`id`) ON DELETE CASCADE)
+[2026-07-31 17:58:00] [-] Falha no processamento da candidatura nesta vaga (ID 2): Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff76651ef95+e415]
+	msedgedriver!GetHandleVerifier [0x7ff76651eff4+e474]
+	msedgedriver!GetHandleVerifier [0x7ff766b99706+688b86]
+	msedgedriver!(No symbol) [0x7ff765f107a2]
+	msedgedriver!(No symbol) [0x7ff765f10a15]
+	msedgedriver!(No symbol) [0x7ff765f4e9c7]
+	msedgedriver!(No symbol) [0x7ff765f073b7]
+	msedgedriver!(No symbol) [0x7ff765f4c688]
+	msedgedriver!(No symbol) [0x7ff765f06bfc]
+	msedgedriver!(No symbol) [0x7ff765f05e56]
+	msedgedriver!(No symbol) [0x7ff765f06a23]
+	msedgedriver!(No symbol) [0x7ff7661493f1]
+	msedgedriver!(No symbol) [0x7ff76614580f]
+	msedgedriver!(No symbol) [0x7ff766156699]
+	msedgedriver!GetHandleVerifier [0x7ff76653a681+29b01]
+	msedgedriver!GetHandleVerifier [0x7ff766542e86+32306]
+	msedgedriver!GetHandleVerifier [0x7ff766526af4+15f74]
+	msedgedriver!GetHandleVerifier [0x7ff766526c15+16095]
+	msedgedriver!GetHandleVerifier [0x7ff766513033+24b3]
+	KERNEL32!BaseThreadInitThunk [0x7ffc022c7374+14]
+	ntdll!RtlUserThreadStart [0x7ffc02a9cc91+21]
+
+[2026-07-31 17:58:00] [-] Erro ao salvar histórico no banco: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sistema_recrutamento_db`.`historico_candidaturas`, CONSTRAINT `historico_candidaturas_ibfk_1` FOREIGN KEY (`vaga_id`) REFERENCES `vagas` (`id`) ON DELETE CASCADE)
+[2026-07-31 17:58:01] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 17:58:03] [*] Finalizando ambiente de simulação e fechando o navegador Edge...
+[2026-07-31 17:58:03] [*] Finalizando ambiente de simulação e fechando o navegador Edge...
+[2026-07-31 17:58:04] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 17:58:06] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 17:58:06] [*] O seu perfil técnico atual: ['PHP', 'MYSQL', 'DOCKER', 'PYTHON', 'FASTAPI', 'NGINX']
+[2026-07-31 17:58:06] [*] Correspondência técnica: 4 de 4 requisitos atendidos.
+[2026-07-31 17:58:06] [+] Perfil adequado (100.0%). Iniciando submissão...
+[2026-07-31 17:58:09] [+] Sucesso: Candidatura submetida com êxito pelo Agente!
+[2026-07-31 17:58:12] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 17:58:23] [-] Falha no processamento da candidatura nesta vaga (ID 2): Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff76651ef95+e415]
+	msedgedriver!GetHandleVerifier [0x7ff76651eff4+e474]
+	msedgedriver!GetHandleVerifier [0x7ff766b99706+688b86]
+	msedgedriver!(No symbol) [0x7ff765f107a2]
+	msedgedriver!(No symbol) [0x7ff765f10a15]
+	msedgedriver!(No symbol) [0x7ff765f4e9c7]
+	msedgedriver!(No symbol) [0x7ff765f073b7]
+	msedgedriver!(No symbol) [0x7ff765f4c688]
+	msedgedriver!(No symbol) [0x7ff765f06bfc]
+	msedgedriver!(No symbol) [0x7ff765f05e56]
+	msedgedriver!(No symbol) [0x7ff765f06a23]
+	msedgedriver!(No symbol) [0x7ff7661493f1]
+	msedgedriver!(No symbol) [0x7ff76614580f]
+	msedgedriver!(No symbol) [0x7ff766156699]
+	msedgedriver!GetHandleVerifier [0x7ff76653a681+29b01]
+	msedgedriver!GetHandleVerifier [0x7ff766542e86+32306]
+	msedgedriver!GetHandleVerifier [0x7ff766526af4+15f74]
+	msedgedriver!GetHandleVerifier [0x7ff766526c15+16095]
+	msedgedriver!GetHandleVerifier [0x7ff766513033+24b3]
+	KERNEL32!BaseThreadInitThunk [0x7ffc022c7374+14]
+	ntdll!RtlUserThreadStart [0x7ffc02a9cc91+21]
+
+[2026-07-31 17:58:31] [-] Erro ao salvar histórico no banco: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sistema_recrutamento_db`.`historico_candidaturas`, CONSTRAINT `historico_candidaturas_ibfk_1` FOREIGN KEY (`vaga_id`) REFERENCES `vagas` (`id`) ON DELETE CASCADE)
+[2026-07-31 17:58:31] [*] Finalizando ambiente de simulação e fechando o navegador Edge...
+[2026-07-31 17:58:36] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59813): Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente")': /session/f8a5abf6c8a8d807b272115e0ea4ebf5
+[2026-07-31 17:58:40] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59813): Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente")': /session/f8a5abf6c8a8d807b272115e0ea4ebf5
+[2026-07-31 18:02:00] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:02:00] ====== WebDriver manager ======
+[2026-07-31 18:02:03] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 18:02:05] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 18:02:07] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 18:02:07] [+] Perfil adequado (100.0%). Submetendo...
+[2026-07-31 18:02:10] [+] Sucesso: Candidatura submetida com êxito!
+[2026-07-31 18:02:13] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 18:02:24] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-07-31 18:02:24] [-] Erro de Integridade (Chave Estrangeira): A vaga ID 2 não existe na tabela 'vagas'.
+[2026-07-31 18:02:27] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-07-31 18:20:15] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:20:15] ====== WebDriver manager ======
+[2026-07-31 18:20:21] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 18:20:24] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 18:20:30] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 18:20:30] [+] Perfil adequado (100.0%). Submetendo...
+[2026-07-31 18:20:33] [+] Sucesso: Candidatura submetida com êxito!
+[2026-07-31 18:20:36] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 18:20:37] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-07-31 18:20:37] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-07-31 18:20:40] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-07-31 18:24:26] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:24:26] ====== WebDriver manager ======
+[2026-07-31 18:24:28] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 18:24:30] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 18:24:33] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 18:24:33] [+] Perfil adequado (100.0%). Submetendo...
+[2026-07-31 18:24:36] [+] Sucesso: Candidatura submetida com êxito!
+[2026-07-31 18:24:39] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 18:24:39] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-07-31 18:24:39] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-07-31 18:24:43] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-07-31 18:39:13] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:39:13] [-] Erro crítico: Impossível obter o perfil do candidato.
+[2026-07-31 18:40:06] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:40:06] [-] Erro crítico: Impossível obter o perfil do candidato.
+[2026-07-31 18:51:47] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:51:47] [-] Erro crítico: Impossível obter o perfil do candidato.
+[2026-07-31 18:52:06] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:52:06] [-] Erro crítico: Impossível obter o perfil do candidato.
+[2026-07-31 18:52:48] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:52:48] [-] Erro crítico: Impossível obter o perfil do candidato.
+[2026-07-31 18:55:53] [*] Iniciando o Agente Autónomo...
+[2026-07-31 18:55:53] ====== WebDriver manager ======
+[2026-07-31 18:55:59] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 18:56:12] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 18:56:14] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 18:56:14] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-07-31 18:56:17] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 18:56:17] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-07-31 18:56:17] [+] Perfil adequado (66.7%). Submetendo...
+[2026-07-31 18:56:21] [+] Sucesso: Candidatura submetida com êxito!
+[2026-07-31 18:56:24] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-07-31 19:07:09] [*] Iniciando o Agente Autónomo...
+[2026-07-31 19:07:09] ====== WebDriver manager ======
+[2026-07-31 19:07:15] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 19:07:17] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 19:07:20] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 19:07:20] [+] Perfil adequado (100.0%). Submetendo...
+[2026-07-31 19:07:31] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-07-31 19:07:34] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 19:07:34] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-07-31 19:07:34] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-07-31 19:07:34] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '2-Ignorada' for key 'unica_submissao_por_vaga'
+[2026-07-31 19:07:37] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-07-31 19:07:41] [*] Iniciando o Agente Autónomo...
+[2026-07-31 19:07:41] ====== WebDriver manager ======
+[2026-07-31 19:07:43] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 19:07:46] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 19:07:50] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 19:07:50] [+] Perfil adequado (100.0%). Submetendo...
+[2026-07-31 19:08:00] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-07-31 19:08:01] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '1-Falha' for key 'unica_submissao_por_vaga'
+[2026-07-31 19:08:04] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 19:08:04] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-07-31 19:08:04] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-07-31 19:08:04] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '2-Ignorada' for key 'unica_submissao_por_vaga'
+[2026-07-31 19:08:07] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-07-31 19:08:12] [*] Iniciando o Agente Autónomo...
+[2026-07-31 19:08:12] ====== WebDriver manager ======
+[2026-07-31 19:08:14] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 19:08:16] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 19:08:18] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 19:08:18] [+] Perfil adequado (100.0%). Submetendo...
+[2026-07-31 19:08:29] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-07-31 19:08:29] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '1-Falha' for key 'unica_submissao_por_vaga'
+[2026-07-31 19:08:32] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 19:08:32] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-07-31 19:08:32] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-07-31 19:08:32] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '2-Ignorada' for key 'unica_submissao_por_vaga'
+[2026-07-31 19:08:35] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-07-31 19:17:18] [*] Iniciando o Agente Autónomo...
+[2026-07-31 19:17:19] ====== WebDriver manager ======
+[2026-07-31 19:17:20] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\150.0.4078.105\msedgedriver.exe] found in cache by browser version
+[2026-07-31 19:17:23] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-07-31 19:17:26] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-07-31 19:17:26] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-07-31 19:17:26] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '1-Ignorada' for key 'unica_submissao_por_vaga'
+[2026-07-31 19:17:29] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-07-31 19:17:29] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-07-31 19:17:29] [-] Vaga ignorada (33.3% match): Requisitos insuficientes.
+[2026-07-31 19:17:29] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '2-Ignorada' for key 'unica_submissao_por_vaga'
+[2026-07-31 19:17:32] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 16:50:04] [*] Iniciando o Agente Autónomo...
+[2026-08-04 16:50:04] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 16:50:31] [*] Iniciando o Agente Autónomo...
+[2026-08-04 16:50:31] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 3.
+[2026-08-04 16:51:06] [*] Iniciando o Agente Autónomo...
+[2026-08-04 16:51:06] ====== WebDriver manager ======
+[2026-08-04 16:51:24] Get LATEST edgedriver version for Edge 151.0.4129
+[2026-08-04 16:51:25] There is no [win64] edgedriver "151.0.4129.59" for browser edge "151.0.4129" in cache
+[2026-08-04 16:51:26] There is no [win64] edgedriver "151.0.4129.59" for browser edge "151.0.4129" in cache
+[2026-08-04 16:51:26] Get LATEST edgedriver version for Edge 151.0.4129
+[2026-08-04 16:51:26] About to download new driver from https://msedgedriver.microsoft.com/151.0.4129.59/edgedriver_win64.zip
+[2026-08-04 16:51:29] Driver downloading response is 200
+[2026-08-04 16:51:42] Driver has been saved in cache [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59]
+[2026-08-04 16:51:45] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 16:51:47] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 16:51:47] [+] Perfil adequado (75.0%). Submetendo...
+[2026-08-04 16:51:50] [-] Erro ao enviar e-mail de notificação: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-47febfe5ecfsm754155f8f.11 - gsmtp')
+[2026-08-04 16:52:00] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 16:52:03] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 16:52:03] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 16:52:03] [+] Perfil adequado (100.0%). Submetendo...
+[2026-08-04 16:52:05] [-] Erro ao enviar e-mail de notificação: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-47febfe5d7csm788969f8f.15 - gsmtp')
+[2026-08-04 16:52:15] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 16:52:18] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 17:25:07] [*] Iniciando o Agente Autónomo...
+[2026-08-04 17:25:07] ====== WebDriver manager ======
+[2026-08-04 17:25:08] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 17:25:09] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 17:25:11] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 17:25:11] [+] Perfil adequado (75.0%). Submetendo...
+[2026-08-04 17:25:31] [+] E-mail de notificação enviado com sucesso para lukokipau@gmail.com
+[2026-08-04 17:25:41] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:25:44] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 17:25:44] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 17:25:44] [+] Perfil adequado (100.0%). Submetendo...
+[2026-08-04 17:25:48] [+] E-mail de notificação enviado com sucesso para lukokipau@gmail.com
+[2026-08-04 17:25:58] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:26:01] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 17:27:39] [*] Iniciando o Agente Autónomo...
+[2026-08-04 17:27:39] ====== WebDriver manager ======
+[2026-08-04 17:27:40] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 17:27:41] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 17:27:42] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 17:27:42] [+] Perfil adequado (75.0%). Submetendo...
+[2026-08-04 17:27:45] [+] E-mail de notificação enviado com sucesso para lukokipaulo@gmail.com
+[2026-08-04 17:27:56] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:27:59] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 17:27:59] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 17:27:59] [+] Perfil adequado (100.0%). Submetendo...
+[2026-08-04 17:28:03] [+] E-mail de notificação enviado com sucesso para lukokipaulo@gmail.com
+[2026-08-04 17:28:13] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:28:16] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 17:34:36] [*] Iniciando o Agente Autónomo...
+[2026-08-04 17:34:36] ====== WebDriver manager ======
+[2026-08-04 17:34:36] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 17:34:38] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 17:34:39] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 17:34:39] [+] Perfil adequado (75.0%). Submetendo...
+[2026-08-04 17:34:42] [+] E-mail de notificação enviado com sucesso para lukokipaulo@gmail.com
+[2026-08-04 17:34:53] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:34:56] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 17:34:56] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 17:34:56] [+] Perfil adequado (100.0%). Submetendo...
+[2026-08-04 17:34:59] [+] E-mail de notificação enviado com sucesso para lukokipaulo@gmail.com
+[2026-08-04 17:35:09] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:35:12] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 17:40:02] [*] Iniciando o Agente Autónomo...
+[2026-08-04 17:40:02] ====== WebDriver manager ======
+[2026-08-04 17:40:03] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 17:40:04] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 17:40:06] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 17:40:06] [+] Perfil adequado (75.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 17:40:08] [+] E-mail enviado com sucesso para o recrutador: berfeli313@gmail.com
+[2026-08-04 17:40:18] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:40:22] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 17:40:22] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 17:40:22] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 17:40:25] [+] E-mail enviado com sucesso para o recrutador: berfeli313@gmail.com
+[2026-08-04 17:40:35] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:40:38] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 17:46:36] [*] Iniciando o Agente Autónomo...
+[2026-08-04 17:46:36] ====== WebDriver manager ======
+[2026-08-04 17:46:37] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 17:46:38] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 17:46:39] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 17:46:39] [+] Perfil adequado (75.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 17:46:42] [+] E-mail enviado com sucesso para o recrutador: jsandjiwo@gmail.com
+[2026-08-04 17:46:52] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:46:56] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 17:46:56] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 17:46:56] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 17:47:02] [+] E-mail enviado com sucesso para o recrutador: berfeli313@gmail.com
+[2026-08-04 17:47:12] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:47:15] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 17:52:42] [*] Iniciando o Agente Autónomo...
+[2026-08-04 17:52:42] ====== WebDriver manager ======
+[2026-08-04 17:52:43] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 17:52:44] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 17:52:45] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 17:52:45] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-04 17:52:48] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 17:52:49] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 17:52:49] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 17:52:52] [+] E-mail enviado com sucesso para o recrutador: berfeli313@gmail.com
+[2026-08-04 17:53:02] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:53:06] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 17:56:47] [*] Iniciando o Agente Autónomo...
+[2026-08-04 17:56:47] ====== WebDriver manager ======
+[2026-08-04 17:56:48] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 17:56:49] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 17:56:51] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 17:56:51] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-04 17:56:54] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 17:56:54] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 17:56:54] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 17:56:59] [+] E-mail enviado com sucesso para o recrutador: berfeli313@gmail.com
+[2026-08-04 17:57:09] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 17:57:12] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 18:02:34] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:02:34] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 18:02:34] ====== WebDriver manager ======
+[2026-08-04 18:02:35] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 18:02:36] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 18:02:38] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 18:02:38] [+] Perfil adequado (75.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:02:42] [+] E-mail enviado com sucesso para o recrutador: jsandjiwo@gmail.com
+[2026-08-04 18:02:52] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:02:55] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 18:02:55] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 18:02:55] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:03:00] [+] E-mail enviado com sucesso para o recrutador: berfeli313@gmail.com
+[2026-08-04 18:03:10] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:03:13] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 18:14:25] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:14:25] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 18:14:25] ====== WebDriver manager ======
+[2026-08-04 18:14:26] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 18:14:27] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 18:14:29] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 18:14:29] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-04 18:14:32] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 18:14:32] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 18:14:32] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:14:37] [+] E-mail de candidatura de 'José Amaral Sandjiwo' (jsandjiwo@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-04 18:14:48] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:14:51] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 18:15:55] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:15:55] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 18:16:18] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:16:18] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 18:16:18] ====== WebDriver manager ======
+[2026-08-04 18:16:18] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 18:16:19] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 18:16:21] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 18:16:21] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:16:24] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-04 18:16:35] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:16:38] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 18:16:38] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 18:16:38] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-04 18:16:41] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 18:29:25] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:29:25] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 18:32:54] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:32:54] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 18:33:17] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:33:17] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 18:34:09] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:34:09] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 18:37:16] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:37:16] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 18:37:16] ====== WebDriver manager ======
+[2026-08-04 18:37:17] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 18:37:18] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 18:37:20] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 18:37:20] [+] Perfil adequado (75.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:37:24] [+] E-mail de candidatura de 'Bernardo Kinavuide Paulo Lukoki' (lukokipaulo@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-04 18:37:34] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:37:37] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 18:37:37] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 18:37:37] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:37:41] [+] E-mail de candidatura de 'Bernardo Kinavuide Paulo Lukoki' (lukokipaulo@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-04 18:37:52] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:37:55] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 18:39:11] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:39:11] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 18:39:11] ====== WebDriver manager ======
+[2026-08-04 18:39:12] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 18:39:13] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 18:39:14] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 18:39:14] [+] Perfil adequado (75.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:39:18] [+] E-mail de candidatura de 'Bernardo Kinavuide Paulo Lukoki' (lukokipaulo@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-04 18:39:28] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:39:32] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 18:39:32] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 18:39:32] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:39:35] [+] E-mail de candidatura de 'Bernardo Kinavuide Paulo Lukoki' (lukokipaulo@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-04 18:39:45] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:39:48] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 18:49:52] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:49:52] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 18:49:52] ====== WebDriver manager ======
+[2026-08-04 18:49:53] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 18:49:54] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 18:49:56] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 18:49:56] [+] Perfil adequado (75.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:50:00] [+] E-mail de candidatura de 'Bernardo Kinavuide Paulo Lukoki' (lukokipaulo@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-04 18:50:10] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:50:13] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 18:50:13] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 18:50:13] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-04 18:50:17] [+] E-mail de candidatura de 'Bernardo Kinavuide Paulo Lukoki' (lukokipaulo@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-04 18:50:27] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:50:30] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 18:52:57] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:52:57] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 18:53:50] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:53:50] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 18:53:55] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:53:55] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 1.
+[2026-08-04 18:54:45] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:54:45] ====== WebDriver manager ======
+[2026-08-04 18:54:46] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 18:54:47] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 18:54:48] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 18:54:48] [+] Perfil adequado (75.0%). Submetendo...
+[2026-08-04 18:54:59] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:54:59] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '1-Falha' for key 'unica_submissao_por_vaga'
+[2026-08-04 18:55:02] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 18:55:02] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 18:55:02] [+] Perfil adequado (100.0%). Submetendo...
+[2026-08-04 18:55:12] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:55:12] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '2-Falha' for key 'unica_submissao_por_vaga'
+[2026-08-04 18:55:15] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 18:55:36] [*] Iniciando o Agente Autónomo...
+[2026-08-04 18:55:36] ====== WebDriver manager ======
+[2026-08-04 18:55:37] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 18:55:38] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 18:55:39] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-04 18:55:39] [+] Perfil adequado (75.0%). Submetendo...
+[2026-08-04 18:55:50] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:55:50] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '1-Falha' for key 'unica_submissao_por_vaga'
+[2026-08-04 18:55:53] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 18:55:53] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-04 18:55:53] [+] Perfil adequado (100.0%). Submetendo...
+[2026-08-04 18:56:03] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 18:56:03] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '2-Falha' for key 'unica_submissao_por_vaga'
+[2026-08-04 18:56:06] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:02:07] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:02:07] ====== WebDriver manager ======
+[2026-08-04 19:02:08] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:02:09] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 19:02:20] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:02:21] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '1-Falha' for key 'unica_submissao_por_vaga'
+[2026-08-04 19:02:24] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 19:02:34] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:02:34] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '2-Falha' for key 'unica_submissao_por_vaga'
+[2026-08-04 19:02:37] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:15:46] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:15:46] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-04 19:15:46] ====== WebDriver manager ======
+[2026-08-04 19:15:47] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:15:48] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-04 19:16:00] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:16:03] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-04 19:16:14] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:16:17] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:21:45] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:21:46] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-04 19:21:46] ====== WebDriver manager ======
+[2026-08-04 19:21:46] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:21:47] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-04 19:21:59] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:22:02] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-04 19:22:13] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:22:16] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:22:32] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:22:32] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-04 19:22:32] ====== WebDriver manager ======
+[2026-08-04 19:22:33] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:22:34] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-04 19:22:46] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:22:49] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-04 19:23:00] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:23:03] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:25:56] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:25:56] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-04 19:25:56] ====== WebDriver manager ======
+[2026-08-04 19:25:57] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:25:58] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-04 19:26:16] [-] Exceção do WebDriver na vaga 1: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:26:19] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-04 19:26:36] [-] Exceção do WebDriver na vaga 2: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:26:39] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:29:08] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:29:08] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-04 19:29:08] ====== WebDriver manager ======
+[2026-08-04 19:29:09] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:29:10] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-04 19:29:28] [-] Exceção do WebDriver na vaga 1: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:29:31] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-04 19:29:47] [-] Exceção do WebDriver na vaga 2: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:29:50] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:30:07] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:30:07] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-04 19:30:07] ====== WebDriver manager ======
+[2026-08-04 19:30:08] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:30:09] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-04 19:30:27] [-] Exceção do WebDriver na vaga 1: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:30:30] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-04 19:30:46] [-] Exceção do WebDriver na vaga 2: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:30:49] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:31:48] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:31:48] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 19:31:48] ====== WebDriver manager ======
+[2026-08-04 19:31:49] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:31:50] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 19:32:02] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:32:05] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 19:32:15] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:32:18] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:32:39] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:32:39] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 19:32:39] ====== WebDriver manager ======
+[2026-08-04 19:32:39] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:32:41] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 19:32:52] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:32:55] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 19:33:06] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:33:09] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:34:13] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:34:13] [+] Foram encontradas 2 vagas dinamicamente na base de dados.
+[2026-08-04 19:34:13] ====== WebDriver manager ======
+[2026-08-04 19:34:13] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:34:14] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-04 19:34:27] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:34:30] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-04 19:34:40] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-04 19:34:43] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:36:32] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:36:32] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-04 19:36:32] ====== WebDriver manager ======
+[2026-08-04 19:36:33] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:36:35] [-] Erro crítico na infraestrutura do robô: Message: invalid argument: cannot parse capability: ms:edgeOptions
+from invalid argument: unrecognized Microsoft Edge option: experimental_options
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff79bd00375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff79bd003d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff79c3bd3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff79b6de2cc]
+	msedgedriver!(No symbol) [0x7ff79b6a6fd8]
+	msedgedriver!(No symbol) [0x7ff79b6da10f]
+	msedgedriver!(No symbol) [0x7ff79b728ecc]
+	msedgedriver!(No symbol) [0x7ff79b7289cf]
+	msedgedriver!(No symbol) [0x7ff79b72a659]
+	msedgedriver!(No symbol) [0x7ff79b72a456]
+	msedgedriver!(No symbol) [0x7ff79b6f5acc]
+	msedgedriver!(No symbol) [0x7ff79b6f4d26]
+	msedgedriver!(No symbol) [0x7ff79b6f58f3]
+	msedgedriver!(No symbol) [0x7ff79b950eeb]
+	msedgedriver!(No symbol) [0x7ff79b94d304]
+	msedgedriver!GetHandleVerifier [0x7ff79bd2d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff79bd1be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff79bd24786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff79bd07d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff79bd07e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff79bcf43c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-04 19:38:17] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:38:17] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-04 19:38:17] ====== WebDriver manager ======
+[2026-08-04 19:38:18] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:38:18] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-04 19:38:36] [-] Exceção do WebDriver na vaga 1: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:38:39] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-04 19:38:55] [-] Exceção do WebDriver na vaga 2: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:38:58] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:39:19] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:39:19] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-04 19:39:19] ====== WebDriver manager ======
+[2026-08-04 19:39:20] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:39:21] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-04 19:39:39] [-] Exceção do WebDriver na vaga 1: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:39:42] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-04 19:39:59] [-] Exceção do WebDriver na vaga 2: O navegador fechou inesperadamente ou a página demorou a responder.
+[2026-08-04 19:40:02] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-04 19:42:09] [*] Iniciando o Agente Autónomo...
+[2026-08-04 19:42:09] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-04 19:42:09] ====== WebDriver manager ======
+[2026-08-04 19:42:09] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-04 19:42:11] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-04 19:42:40] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-04 19:42:43] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-04 19:43:10] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-04 19:43:13] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 11:28:13] [*] Iniciando o Agente Autónomo...
+[2026-08-05 11:28:13] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 11:28:13] ====== WebDriver manager ======
+[2026-08-05 11:28:20] Get LATEST edgedriver version for Edge 151.0.4129
+[2026-08-05 11:28:22] Get LATEST edgedriver version for Edge 151.0.4129
+[2026-08-05 11:28:23] About to download new driver from https://msedgedriver.microsoft.com/151.0.4129.59/edgedriver_win64.zip
+[2026-08-05 11:28:24] Driver downloading response is 200
+[2026-08-05 11:28:38] Driver has been saved in cache [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59]
+[2026-08-05 11:28:43] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 11:29:12] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 11:29:15] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 11:29:42] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-05 11:29:45] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 11:29:47] [*] Iniciando o Agente Autónomo...
+[2026-08-05 11:29:47] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 11:29:47] ====== WebDriver manager ======
+[2026-08-05 11:29:50] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 11:29:52] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 11:30:21] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 11:30:24] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 11:30:52] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-05 11:30:55] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 11:34:32] [*] Iniciando o Agente Autónomo...
+[2026-08-05 11:34:32] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 11:34:32] ====== WebDriver manager ======
+[2026-08-05 11:34:34] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 11:34:36] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 11:35:08] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 11:35:11] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 11:35:39] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-05 11:35:42] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 11:43:59] [*] Iniciando o Agente Autónomo...
+[2026-08-05 11:43:59] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 11:43:59] ====== WebDriver manager ======
+[2026-08-05 11:44:01] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 11:44:01] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 11:44:30] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 11:44:33] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 11:45:01] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-05 11:45:04] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 11:57:15] [*] Iniciando o Agente Autónomo...
+[2026-08-05 11:57:15] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 11:57:15] [-] Erro crítico na infraestrutura do robô: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+[2026-08-05 11:57:15] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 11:58:33] [*] Iniciando o Agente Autónomo...
+[2026-08-05 11:58:33] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 11:58:33] [-] Erro crítico na infraestrutura do robô: name 'EdgeChromiumDriverManager' is not defined
+[2026-08-05 11:58:33] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 11:59:22] [*] Iniciando o Agente Autónomo...
+[2026-08-05 11:59:22] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 11:59:22] [-] Erro crítico na infraestrutura do robô: [-] O ficheiro msedgedriver.exe não foi encontrado em: C:\xampp\htdocs\robo_recrutamento\msedgedriver.exe
+[2026-08-05 11:59:22] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 12:00:40] [*] Iniciando o Agente Autónomo...
+[2026-08-05 12:00:40] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 12:00:40] ====== WebDriver manager ======
+[2026-08-05 12:00:41] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 12:00:42] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 12:01:22] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 12:01:25] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 12:02:02] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-05 12:02:08] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 12:02:32] [*] Iniciando o Agente Autónomo...
+[2026-08-05 12:02:32] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 12:02:32] ====== WebDriver manager ======
+[2026-08-05 12:02:33] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 12:02:34] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 12:03:13] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 12:03:16] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 12:03:53] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-05 12:03:58] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 12:04:47] [*] Iniciando o Agente Autónomo...
+[2026-08-05 12:04:48] ====== WebDriver manager ======
+[2026-08-05 12:04:48] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 12:04:49] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-05 12:05:01] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-05 12:05:01] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '1-Falha' for key 'unica_submissao_por_vaga'
+[2026-08-05 12:05:04] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-05 12:05:15] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-05 12:05:15] [-] Erro no banco de dados: 1062 (23000): Duplicate entry '2-Falha' for key 'unica_submissao_por_vaga'
+[2026-08-05 12:05:18] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-05 12:07:21] [*] Iniciando o Agente Autónomo...
+[2026-08-05 12:07:21] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 12:07:21] ====== WebDriver manager ======
+[2026-08-05 12:07:22] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 12:07:23] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 12:08:00] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 12:08:02] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 12:08:34] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/cf8b17b8fc5daa69db77bb9773581a76
+[2026-08-05 12:08:39] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49515): Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente")': /session/cf8b17b8fc5daa69db77bb9773581a76
+[2026-08-05 12:08:43] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=49515): Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente")': /session/cf8b17b8fc5daa69db77bb9773581a76
+[2026-08-05 12:08:47] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 12:08:47] [*] Execução interrompida manualmente.
+[2026-08-05 12:08:50] [*] Iniciando o Agente Autónomo...
+[2026-08-05 12:08:50] [*] Iniciando o Agente Autónomo para o Perfil ID: 4
+[2026-08-05 12:08:50] [+] Perfil carregado com sucesso: Bernardo Kinavuide Paulo Lukoki (ID Perfil: 4, User ID: 4)
+[2026-08-05 12:08:50] ====== WebDriver manager ======
+[2026-08-05 12:08:51] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 12:08:52] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1
+[2026-08-05 12:09:04] [-] Exceção do WebDriver na vaga 1: Navegador fechou ou perdeu comunicação.
+[2026-08-05 12:09:09] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2
+[2026-08-05 12:09:19] [-] Exceção do WebDriver na vaga 2: Navegador fechou ou perdeu comunicação.
+[2026-08-05 12:09:21] [*] Finalizando ambiente de simulação com encerramento seguro...
+[2026-08-05 12:09:25] [*] Agente retornado ao estado ocioso com sucesso.
+[2026-08-05 12:10:31] [*] Iniciando o Agente Autónomo...
+[2026-08-05 12:10:32] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 12:10:32] ====== WebDriver manager ======
+[2026-08-05 12:10:35] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 12:10:35] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 12:11:14] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 12:11:17] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 12:11:55] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-05 12:12:01] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 12:23:10] [*] Iniciando o Agente Autónomo...
+[2026-08-05 12:23:10] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 12:23:10] ====== WebDriver manager ======
+[2026-08-05 12:23:12] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 12:23:19] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 12:24:00] [-] Exceção do WebDriver na vaga 1: O navegador perdeu a conexão.
+[2026-08-05 12:24:03] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 12:24:40] [-] Exceção do WebDriver na vaga 2: O navegador perdeu a conexão.
+[2026-08-05 12:24:47] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:14:51] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:14:51] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 4.
+[2026-08-05 13:14:51] ====== WebDriver manager ======
+[2026-08-05 13:14:57] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:15:02] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=4
+[2026-08-05 13:15:09] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:15:09] [+] Perfil adequado (66.7%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:15:14] [+] E-mail de candidatura de 'Bernardo Kinavuide Paulo Lukoki' (lukokipaulo@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:15:35] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 13:15:38] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=4
+[2026-08-05 13:15:38] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:15:38] [+] Perfil adequado (66.7%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:15:41] [+] E-mail de candidatura de 'Bernardo Kinavuide Paulo Lukoki' (lukokipaulo@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-05 13:16:01] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 13:16:07] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:16:47] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:16:47] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 6.
+[2026-08-05 13:16:47] ====== WebDriver manager ======
+[2026-08-05 13:16:48] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:16:51] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=6
+[2026-08-05 13:16:54] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:16:54] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:16:57] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=6
+[2026-08-05 13:16:57] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:16:57] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:17:03] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:19:05] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:19:05] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 6.
+[2026-08-05 13:19:05] ====== WebDriver manager ======
+[2026-08-05 13:19:06] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:19:07] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=6
+[2026-08-05 13:19:10] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:19:10] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:19:13] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=6
+[2026-08-05 13:19:13] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:19:13] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:19:19] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:21:44] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:21:44] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-05 13:21:44] ====== WebDriver manager ======
+[2026-08-05 13:21:45] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:21:46] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-05 13:21:48] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:21:48] [+] Perfil adequado (66.7%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:21:52] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:21:55] [+] Sucesso: Candidatura submetida e e-mail enviado à empresa!
+[2026-08-05 13:21:58] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-05 13:21:59] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:21:59] [+] Perfil adequado (66.7%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:22:02] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-05 13:22:05] [+] Sucesso: Candidatura submetida e e-mail enviado à empresa!
+[2026-08-05 13:22:11] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:29:37] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:29:37] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 6.
+[2026-08-05 13:29:37] ====== WebDriver manager ======
+[2026-08-05 13:29:37] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:29:38] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=6
+[2026-08-05 13:30:01] [-] Aviso: Elemento com ID 'requisitos' não encontrado a tempo na vaga 1.
+[2026-08-05 13:30:01] [*] Requisitos identificados na vaga: []
+[2026-08-05 13:30:01] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:30:04] [+] E-mail de candidatura de 'José Amaral Sandjiwo' (jsandjiwo@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:30:24] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 13:30:27] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=6
+[2026-08-05 13:30:29] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'PYTHON']
+[2026-08-05 13:30:29] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:30:34] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:37:37] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:37:37] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-05 13:37:37] ====== WebDriver manager ======
+[2026-08-05 13:37:38] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:37:39] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-05 13:37:41] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 13:37:41] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:37:45] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:37:48] [+] Sucesso: Candidatura submetida e e-mail enviado à empresa!
+[2026-08-05 13:37:51] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-05 13:37:51] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 13:37:51] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:37:56] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:47:13] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:47:13] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-05 13:47:13] ====== WebDriver manager ======
+[2026-08-05 13:47:14] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:47:17] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-05 13:47:19] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 13:47:19] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:47:22] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:47:42] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 13:47:45] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-05 13:47:45] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 13:47:45] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:47:52] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:50:20] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:50:20] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-05 13:50:20] ====== WebDriver manager ======
+[2026-08-05 13:50:22] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:50:24] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-05 13:50:26] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 13:50:26] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:50:30] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:50:50] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 13:50:53] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-05 13:50:53] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 13:50:53] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:50:59] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:51:24] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:51:24] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-05 13:51:24] ====== WebDriver manager ======
+[2026-08-05 13:51:25] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:51:26] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-05 13:51:28] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 13:51:28] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:51:31] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:51:51] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 13:51:54] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-05 13:51:55] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 13:51:55] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:52:00] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:53:41] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:53:41] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-05 13:53:41] ====== WebDriver manager ======
+[2026-08-05 13:53:42] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:53:43] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-05 13:53:46] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 13:53:46] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:53:49] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:54:09] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 13:54:12] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-05 13:54:12] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 13:54:12] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 13:54:18] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 13:59:01] [*] Iniciando o Agente Autónomo...
+[2026-08-05 13:59:01] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 7.
+[2026-08-05 13:59:01] ====== WebDriver manager ======
+[2026-08-05 13:59:02] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 13:59:03] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=7
+[2026-08-05 13:59:06] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 13:59:06] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:59:09] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 13:59:29] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 13:59:32] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=7
+[2026-08-05 13:59:33] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 13:59:33] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 13:59:35] [+] E-mail de candidatura de 'Dalmo Chinjenje' (dalmochinjenje@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-05 13:59:56] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 14:00:01] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 14:01:57] [*] Iniciando o Agente Autónomo...
+[2026-08-05 14:01:57] [-] Erro crítico: Impossível obter o perfil do candidato para o utilizador ID 8.
+[2026-08-05 14:05:17] [*] Iniciando o Agente Autónomo...
+[2026-08-05 14:05:17] [+] Foram encontradas 2 vagas dinamicamente na base de dados para o perfil ID 8.
+[2026-08-05 14:05:17] ====== WebDriver manager ======
+[2026-08-05 14:05:18] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 14:05:19] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=8
+[2026-08-05 14:05:22] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 14:05:22] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:05:25] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=8
+[2026-08-05 14:05:25] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 14:05:25] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:05:30] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 14:09:42] [*] Iniciando o Agente Autónomo...
+[2026-08-05 14:09:42] [+] Foram encontradas 3 vagas dinamicamente na base de dados para o perfil ID 8.
+[2026-08-05 14:09:42] ====== WebDriver manager ======
+[2026-08-05 14:09:43] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 14:09:46] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=8
+[2026-08-05 14:09:49] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 14:09:49] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:09:52] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=8
+[2026-08-05 14:09:52] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 14:09:52] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:09:55] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=3&perfil_id=8
+[2026-08-05 14:09:55] [*] Requisitos identificados na vaga: ['MEDICINA LEGAL', 'CONSULTORA MEDICINAL']
+[2026-08-05 14:09:55] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 14:09:58] [+] E-mail de candidatura de 'Luisa Panzo Lukoki' (bernadeth@gmail.com) enviado com sucesso para a empresa: recrutamento.empresa.exemplo@gmail.com
+[2026-08-05 14:10:01] [+] Sucesso: Candidatura submetida e e-mail enviado à empresa!
+[2026-08-05 14:10:07] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 14:11:35] [*] Iniciando o Agente Autónomo...
+[2026-08-05 14:11:35] [+] Foram encontradas 3 vagas dinamicamente na base de dados para o perfil ID 8.
+[2026-08-05 14:11:35] ====== WebDriver manager ======
+[2026-08-05 14:11:36] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 14:11:37] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=8
+[2026-08-05 14:11:40] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 14:11:40] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:11:43] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=8
+[2026-08-05 14:11:43] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 14:11:43] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:11:46] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=3&perfil_id=8
+[2026-08-05 14:11:46] [*] Requisitos identificados na vaga: ['MEDICINA LEGAL', 'CONSULTORA MEDICINAL']
+[2026-08-05 14:11:46] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 14:11:49] [+] E-mail de candidatura de 'Luisa Panzo Lukoki' (bernadeth@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-05 14:12:09] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 14:12:15] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 14:14:52] [*] Iniciando o Agente Autónomo...
+[2026-08-05 14:14:52] [+] Foram encontradas 3 vagas dinamicamente na base de dados para o perfil ID 8.
+[2026-08-05 14:14:52] ====== WebDriver manager ======
+[2026-08-05 14:14:53] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 14:14:55] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=8
+[2026-08-05 14:14:58] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 14:14:58] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:15:01] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=8
+[2026-08-05 14:15:02] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 14:15:02] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:15:05] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=3&perfil_id=8
+[2026-08-05 14:15:05] [*] Requisitos identificados na vaga: ['MEDICINA LEGAL', 'CONSULTORA MEDICINAL']
+[2026-08-05 14:15:05] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 14:15:08] [+] E-mail de candidatura de 'Luisa Panzo Lukoki' (bernadeth@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-05 14:15:28] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 14:15:33] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 14:30:40] [*] Iniciando o Agente Autónomo...
+[2026-08-05 14:30:40] [+] Foram encontradas 3 vagas dinamicamente na base de dados para o perfil ID 5.
+[2026-08-05 14:30:40] ====== WebDriver manager ======
+[2026-08-05 14:30:41] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 14:30:42] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=5
+[2026-08-05 14:30:45] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 14:30:45] [+] Perfil adequado (75.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 14:30:49] [+] E-mail de candidatura de 'Celestina Ariete Luwawa Panzo' (celestina@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 14:30:52] [+] Sucesso: Candidatura submetida e e-mail enviado à empresa!
+[2026-08-05 14:30:55] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=5
+[2026-08-05 14:30:55] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 14:30:55] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 14:30:58] [+] E-mail de candidatura de 'Celestina Ariete Luwawa Panzo' (celestina@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-05 14:31:02] [+] Sucesso: Candidatura submetida e e-mail enviado à empresa!
+[2026-08-05 14:31:05] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=3&perfil_id=5
+[2026-08-05 14:31:05] [*] Requisitos identificados na vaga: ['MEDICINA LEGAL', 'CONSULTORA MEDICINAL']
+[2026-08-05 14:31:05] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 14:31:11] [*] Ciclo do Agente Autónomo concluído com sucesso.
+[2026-08-05 15:29:03] [*] Iniciando o Agente Autónomo...
+[2026-08-05 15:29:03] [+] Foram encontradas 3 vagas dinamicamente na base de dados para o perfil ID 5.
+[2026-08-05 15:29:03] ====== WebDriver manager ======
+[2026-08-05 15:29:05] Driver [C:\Users\IPAG\.wdm\drivers\edgedriver\win64\151.0.4129.59\msedgedriver.exe] found in cache by browser version
+[2026-08-05 15:29:09] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=1&perfil_id=5
+[2026-08-05 15:29:12] [*] Requisitos identificados na vaga: ['PHP', 'MYSQL', 'DOCKER', 'NGINX']
+[2026-08-05 15:29:12] [+] Perfil adequado (75.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 15:29:16] [+] E-mail de candidatura de 'Celestina Ariete Luwawa Panzo' (celestina@gmail.com) enviado com sucesso para a empresa: jsandjiwo@gmail.com
+[2026-08-05 15:29:36] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 15:29:39] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=2&perfil_id=5
+[2026-08-05 15:29:39] [*] Requisitos identificados na vaga: ['WORD', 'EXCEL', 'POWERBI']
+[2026-08-05 15:29:39] [+] Perfil adequado (100.0%). Submetendo e enviando ao recrutador...
+[2026-08-05 15:29:58] [+] E-mail de candidatura de 'Celestina Ariete Luwawa Panzo' (celestina@gmail.com) enviado com sucesso para a empresa: berfeli313@gmail.com
+[2026-08-05 15:30:18] [-] Aviso: Botão 'btnCandidatar' não clicado ou ausente, mas match registado: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff77e870375+e3f5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8703d4+e454]
+	msedgedriver!GetHandleVerifier [0x7ff77ef2d3e2+6cb462]
+	msedgedriver!(No symbol) [0x7ff77e26f672]
+	msedgedriver!(No symbol) [0x7ff77e26f8e5]
+	msedgedriver!(No symbol) [0x7ff77e2ad977]
+	msedgedriver!(No symbol) [0x7ff77e266287]
+	msedgedriver!(No symbol) [0x7ff77e2ab638]
+	msedgedriver!(No symbol) [0x7ff77e265acc]
+	msedgedriver!(No symbol) [0x7ff77e264d26]
+	msedgedriver!(No symbol) [0x7ff77e2658f3]
+	msedgedriver!(No symbol) [0x7ff77e4c0eeb]
+	msedgedriver!(No symbol) [0x7ff77e4bd304]
+	msedgedriver!GetHandleVerifier [0x7ff77e89d2c5+3b345]
+	msedgedriver!GetHandleVerifier [0x7ff77e88be41+29ec1]
+	msedgedriver!GetHandleVerifier [0x7ff77e894786+32806]
+	msedgedriver!GetHandleVerifier [0x7ff77e877d34+15db4]
+	msedgedriver!GetHandleVerifier [0x7ff77e877e55+15ed5]
+	msedgedriver!GetHandleVerifier [0x7ff77e8643c3+2443]
+	KERNEL32!BaseThreadInitThunk [0x7ffcea927374+14]
+	ntdll!RtlUserThreadStart [0x7ffcec29cc91+21]
+
+[2026-08-05 15:30:21] [+] Acedendo ao ambiente de simulação local: http://localhost/robo_recrutamento/ver_vaga.php?id=3&perfil_id=5
+[2026-08-05 15:30:21] [*] Requisitos identificados na vaga: ['MEDICINA LEGAL', 'CONSULTORA MEDICINAL']
+[2026-08-05 15:30:21] [-] Vaga ignorada (0.0% match): Requisitos insuficientes.
+[2026-08-05 15:30:27] [*] Ciclo do Agente Autónomo concluído com sucesso.

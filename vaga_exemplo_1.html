@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Vaga: Desenvolvedor Backend</title>
+</head>
+<body>
+    <div id="dados-vaga">
+        <h1>Vaga: Desenvolvedor Backend</h1>
+        <p><strong>Empresa:</strong> Tech Angola local</p>
+        
+        <!-- Requisitos que o robô vai ler e analisar -->
+        <h3>Requisitos:</h3>
+        <ul id="requisitos">
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Docker</li>
+        </ul>
+    </div>
+
+    <!-- Botão que o robô deve clicar se o perfil for adequado -->
+    <button id="btnCandidatar" style="padding: 10px 20px; background-color: green; color: white;">
+        Candidatar-se à Vaga
+    </button>
+
+    <script>
+        document.getElementById('btnCandidatar').addEventListener('click', function() {
+            this.innerText = "Candidatura Submetida com Sucesso!";
+            this.style.backgroundColor = "blue";
+        });
+    </script>
+</body>
+</html>
